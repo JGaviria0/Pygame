@@ -1,4 +1,4 @@
-from utilities import *
+from utilidades import *
 
 def definicion_de_caras(centro,grados_extra,escala):
 

@@ -1,5 +1,5 @@
-from faceDefinicion import *
-from grafics import *
+from definicionDeCaras import *
+from graficos import *
 import time
 
 def animacion_rotacion(direccion,caras,incrementoAngulo,escala,pantalla,centro):
@@ -17,7 +17,6 @@ def animacion_rotacion(direccion,caras,incrementoAngulo,escala,pantalla,centro):
 
 
 def animacion_escala(opcion,caras,incrementoAngulo,escala,pantalla,centro,unidades):
-        print(centro)
         for i in range(unidades):
             if opcion=="aumentar":
                 escala+=1

@@ -1,5 +1,5 @@
-from faceDefinicion import *
-from grafics import *
+from definicion_de_caras import *
+from graficos import *
 
 
 if __name__ == '__main__':
