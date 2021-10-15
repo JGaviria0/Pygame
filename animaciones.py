@@ -56,7 +56,6 @@ def animacion_rotacion_con_aumento(direccion,caras,escala,pantalla,incrementoAng
                 incrementoAngulo+=5
             else:
                 incrementoAngulo-=5
-            print(incrementoAngulo)
         
         return caras, incrementoAngulo, escala
 
