@@ -38,3 +38,6 @@ def initGrafics():
     pantalla = pygame.display.set_mode([ANCHO_VENTANA,ALTO_VENTANA])
     pygame.display.flip()
     return pantalla
+
+def end():
+    pygame.quit()

@@ -53,3 +53,7 @@ if __name__=='__main__':
                     incrementoAngulo-=5
                     caras=definicion_de_caras(centro,incrementoAngulo,escala)
                     caras=validar_direccion(direccion, caras, unidades_traslacion)
+
+    end() 
+    print('fin de programa')
+    
