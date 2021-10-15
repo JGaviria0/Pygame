@@ -10,6 +10,9 @@ Creación de una figura isometrica, la cual tiene 3 superficies en cada una de s
 
 - Rotación: rotar sobre su punto principal 5 grados, utilizando (rueda del ratón)
 
+Las acciones descritas anteriormente se pueden realizar utilizando el archivo main.py, si se desea
+se puede visualizar una demo de las acciones posibles ejecutando el archivo animaciones.py
+
 ------------
 ## Integrantes
 - Juan David Arce 
