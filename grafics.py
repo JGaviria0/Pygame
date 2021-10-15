@@ -22,8 +22,7 @@ AMARILLO_OSCURO=[246, 222, 3]
 ANCHO_VENTANA=800
 ALTO_VENTANA=800
 
-def backScreen(pantalla):
-    pantalla.fill(NEGRO)
+
 
 def imprimir_caras(pantalla, lista_de_caras):
     colores=[VERDE,ROJO,AZUL,BLANCO,GRIS_CLARO,AMARILLO,PURPURA,ROSA,AZUL_CIELO,NARANJA,FUSIA,VERDE_FLUORESENTE,AZUL_OSCURO,ROSA_SUAVE,GRANATE,VERDE_BICHE,AMARILLO_OSCURO]
@@ -33,11 +32,9 @@ def imprimir_caras(pantalla, lista_de_caras):
         del colores[colores.index(color)]
     pygame.display.flip()
 
-def initGrafics():
+def iniciar_graficos():
     pygame.init()
     pantalla = pygame.display.set_mode([ANCHO_VENTANA,ALTO_VENTANA])
     pygame.display.flip()
     return pantalla
 
-def end():
-    pygame.quit()

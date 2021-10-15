@@ -1,17 +1,10 @@
 import math
 
-centro = [400,400]
-incrementoAngulo=0
-unidades_traslacion=[0,0]
-fin=False
-escala=50
-
-
 def validar_direccion(direccion,caras,unidades_traslacion):
     if direccion == "izquierda":
-        return trasladar_caras_izquierda(caras, unidades_traslacion)
+        return trasladar_caras(caras, unidades_traslacion)
     if direccion=="derecha":
-        return trasladar_caras_derecha(caras, unidades_traslacion)
+        return trasladar_caras(caras, unidades_traslacion)
     return caras
 
 
@@ -21,11 +14,7 @@ def Traslacion(p,t):
 
     return [xp,yp]
 
-def trasladar_caras_izquierda(caras,unidades_traladar):
-    Nuevas_caras = [[ Traslacion(punto, unidades_traladar) for punto in cara] for cara in caras]
-    return Nuevas_caras
-
-def trasladar_caras_derecha(caras,unidades_traladar):
+def trasladar_caras(caras,unidades_traladar):
     Nuevas_caras = [[ Traslacion(punto, unidades_traladar) for punto in cara] for cara in caras]
     return Nuevas_caras
 
