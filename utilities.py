@@ -12,6 +12,7 @@ def validar_direccion(direccion,caras,unidades_traslacion):
         return trasladar_caras_izquierda(caras, unidades_traslacion)
     if direccion=="derecha":
         return trasladar_caras_derecha(caras, unidades_traslacion)
+    return caras
 
 
 def Traslacion(p,t):
